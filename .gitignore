@@ -1,0 +1,5 @@
+__pycache__/
+client/__pycache__/
+segmentation/__pycache__/
+sensor/__pycache__/
+segmentation/sam2_b.pt
