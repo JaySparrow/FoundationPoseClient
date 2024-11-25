@@ -4,7 +4,7 @@
 - ROS melodic
 - Python 3.9
 
-## Install
+## Install and Setup
 ```
 # Create a CONDA env
 conda create -n foundationpose-client python==3.9
@@ -15,6 +15,7 @@ conda activate foundationpose-client
 # Install dependencies
 python -m pip install -r requirements.txt
 ```
+Download SAM2 weights `sam2_b.pt` from https://docs.ultralytics.com/models/sam-2/ and put it under folder `segmentation`.
 
 ## Run
 Run the Server first.
